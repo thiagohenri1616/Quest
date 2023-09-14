@@ -1,0 +1,112 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/bg-repeat.jpg);
+    gap: 60px;
+}
+
+.container .pergunta-resposta {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 300px;
+    height: 111px;
+}
+
+.container .pergunta-resposta .pergunta {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+}
+
+.container .pergunta-resposta .resposta {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+}
+
+.container .formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+    padding-top: 16px;
+}
+
+.inputItem {
+    width: 298.01px;
+    height: 35.11px;
+    margin-left: 21px;
+    padding-left: 11px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+}
+
+.container .formulario .mensagemItem {
+    height: 100px;
+    padding-bottom: 65px;
+}
+
+.container .formulario .aviso {
+    color: #F52E2E;
+    margin-left: 20px;
+    margin-bottom: 6px;
+    opacity: 0;
+}
+
+.container .formulario .texto-aviso {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    margin-left: 15px;
+}
+
+.container .formulario .enviar {
+    background-color: #3CCC87;
+    width: 298.01px;
+    height: 41.13px;
+    margin-top: 11px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+}
+
+.container .formulario .enviar:hover {
+    background-color: #09b863;
+}
+
+/*COMANDOS PARA JAVASCRIPT*/
+
+.borda-green {
+    border: 1px solid #00C22B;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.borda-red {
+    border: 1px solid #F52E2E;
+}
+
+.opacidade {
+    color: #F52E2E;
+    margin-left: 20px;
+    margin-bottom: 6px;
+    opacity: 1;
+}
